@@ -1,0 +1,40 @@
+#nosotros{
+    width: 100%;
+    margin: 8rem 0 0 0 ;
+}
+.frente{
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 5.1rem;
+    width: 90%;
+    display: flex;
+    background-color: $blanco1;
+    border-radius: 0.25rem;
+}
+
+.frente-img{
+    width: 50%;
+    
+}
+.cabecera{
+    margin: 3rem 0 1rem 1rem;
+}
+.principal{
+    width: 100%;
+    text-align: justify;
+    margin: 0 10rem 0 12rem ;
+    
+}
+.titulouno{
+   @extend %textos-titulo; 
+}
+.txt-uno{
+    @extend %txt;
+}
+.titulodos{
+   @extend %textos-titulo;
+}
+.txt-dos{
+    @extend %txt;
+    margin-bottom: 3rem;
+}

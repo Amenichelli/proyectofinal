@@ -1,0 +1,58 @@
+#servicios{
+    color: #fff;
+    padding: 10rem;
+    font-size: 2rem;
+    display: grid;
+    margin: 4rem 4rem 0 2rem;
+    justify-content: center;
+    align-content: center;
+   
+    gap: 3rem;
+    grid-template-columns: 45rem 45rem;
+    grid-template-rows: 35rem 35rem;
+    grid-template-areas: "sec1 sec2"
+                         "sec3 sec4";
+                         
+                         
+}
+.serv-box1{
+    grid-area: sec1;
+    background-image: url(multi/Servicios/12.png);
+    @include service;
+}
+.serv-box1:hover{
+    @extend %zoom;
+}
+.serv-box2{
+    grid-area: sec2;
+    background-image: url(multi/Servicios/11.png);
+  @include service;
+}
+.serv-box2:hover{
+    @extend %zoom;
+}
+.serv-box3{
+    grid-area: sec3;
+    background-image: url(Pag/Img/image823.png);
+    @include service;
+}
+.serv-box3:hover{
+    @extend %zoom;
+}
+.serv-box4{
+    grid-area: sec4;
+    background-image: url(../componentes/);
+    @include service;
+}
+.serv-box4:hover{
+    @extend %zoom;
+}
+.serv-txt{
+    margin: 65% 0 0 0;
+    color: $azul2;
+    text-align: center;
+}
+.serv-txt-m{
+    text-align: center;
+    margin: 55% 0 0 0;
+}

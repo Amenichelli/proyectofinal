@@ -1,0 +1,21 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+   
+}
+body{
+    font-family: $fuente;
+    background-image: linear-gradient(to right top, #0000f5, #0033f3, #004aee, #005be5, #276ada, #356dd0, #4070c5, #4b72ba, #466baf, #4164a5, #3c5d9a, #375690);
+}
+
+a{
+    color: $blanco1;
+    text-decoration: $enlaces;
+}

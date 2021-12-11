@@ -1,0 +1,18 @@
+
+/* Base */
+
+@import "../scss/base/variables";
+@import "../scss/base/mediaQuery";
+@import "../scss/base/colores";
+@import "../scss/base/extends";
+@import "../scss/base/mixins";
+
+/* Componentes */
+
+@import "../scss/componentes/body";
+@import "../scss/componentes/header";
+@import "../scss/componentes/main";
+@import "../scss/componentes/servicios";
+@import "../scss/componentes/trabajos";
+@import "../scss/componentes/footer";
+

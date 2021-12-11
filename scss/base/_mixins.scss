@@ -1,0 +1,14 @@
+@mixin service {
+    align-content: center;
+    justify-content: center;
+    background-color: #3C73F5;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1rem solid #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 0 5em -1em black;
+    background-position: 100%;
+    width: 100%;
+}

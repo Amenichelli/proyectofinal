@@ -1,0 +1,56 @@
+#contacto{
+    padding: 2rem 0;
+    background-color: $azul1;
+    border-radius: 1rem;
+    margin: 0 2rem 0 2rem ;
+    border-style: solid;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    margin: 0;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20%;
+}
+.footer-links li{
+    color: white;
+    padding: 0.8rem;
+    border-radius: 2rem;
+}
+.footer-links li a :hover{
+    background-color: $blanco1;
+} 
+.logo-map{
+    width: 50%;
+    margin: 0;
+}
+.logo{
+    width: 25%;
+    transition: all 1s;
+}
+.logo:hover {
+    width: 50%;
+
+}
+.mapa{
+    width: 50%;
+}
+.maps{
+    width: 100%;
+    margin: 0;
+}

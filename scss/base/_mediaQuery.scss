@@ -1,0 +1,299 @@
+/* General */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+    background-color: #0000F5;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.link{
+    font-size: 1.25rem;
+}
+/* Fin general */
+/* Header */
+.header{
+    padding: 2rem 0;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+     background-image: url(multi/home/construmetal.png);
+    background-size: 28rem;
+    background-repeat: no-repeat;
+    background-position-x: 5rem;
+    z-index: 1000;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 1rem 1rem;
+    margin-left: 90rem;
+}
+#inicio{
+    color: white;
+    background-color: #3C73F5;
+    padding: 0.8rem;
+}
+.menu li a {
+    color: white;
+    background-color: #3C73F5;
+    padding: 0.8rem;
+    
+}
+.menu li a:hover{
+    background-color: white;
+    color: #3C73F5;
+}
+@media only screen and (min-width: 768px){
+    .body{
+        font-size: 1rem;
+    }
+    .header{
+        display: flex;
+        font-size: 2rem;
+        background-position: center;
+        margin: 0 0;
+        background-size: cover;
+    }
+    .container-menu{
+        flex-wrap: wrap;
+        justify-content: center;
+      
+    }
+    .menu{
+        margin: 15rem 0 0 0;
+
+    }
+}
+@media only screen and (max-width: 400px){
+    .body{
+        font-size: 10px;
+    }
+    .header{
+        display: flex;
+    }
+    .container-menu{
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+    .menu{
+        margin: 5rem 0 0 0;
+    }
+   
+}
+/* fin header */
+/* Main */
+#nosotros{
+    width: 100%;
+    margin: 8rem 0 0 0 ;
+}
+.frente{
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 5.1rem;
+    width: 90%;
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 0.25rem;
+}
+
+.frente-img{
+    width: 50%;
+    
+}
+.cabecera{
+    margin: 3rem 0 1rem 1rem;
+}
+.principal{
+    width: 100%;
+    text-align: justify;
+    margin: 0 10rem 0 12rem ;
+    
+}
+.titulouno{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+.txt-uno{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.titulodos{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+.txt-dos{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+@media only screen and (min-width: 768px){
+    .frente{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: column;
+      }
+      .frente-img {
+          margin: 0 0;
+          width: 100%;
+      }
+      .cabecera{
+          width: 97%;
+      }
+      .principal{
+        width: 100%;
+        font-size: 1rem;
+        margin: 0 0 3rem 0;
+      }
+      .objetivo{
+          width: 50%;
+       
+      }
+      .titulouno{
+          font-size: 3rem;
+      }
+      .txt-uno{
+          font-size: 2rem;
+      }
+      .titulodos{
+          font-size: 3rem;
+      }
+      .txt-dos{
+          font-size: 2rem;
+      }
+}
+@media only screen and (max-width: 400px){
+    .frente{
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      flex-direction: column;
+    }
+    .frente-img {
+        margin: 0 0;
+        width: 100%;
+    }
+    .cabecera{
+        width: 93%;
+    }
+    .principal{
+      width: 100%;
+      font-size: 10px;
+      margin: 0 0 3rem 0;
+    }
+    .objetivo{
+        width: 50%;
+     
+    }
+    .titulouno{
+        font-size: 1.5rem;
+    }
+    .txt-uno{
+        font-size: 1rem;
+    }
+    .titulodos{
+        font-size: 1.5rem;
+    }
+    .txt-dos{
+        font-size: 1rem;
+    }
+}
+/* Fin Nosotros */
+/* servicios */
+@media only screen and (max-width: 768px) {
+    #servicios{
+        margin: 0 3rem;
+        justify-content: center;
+        padding: 0;
+        margin: 0 ;
+        grid-template-columns: 30rem 30rem;
+        grid-template-rows: 35rem 35rem  ;
+        grid-template-areas: "sec1 sec2"
+                             "sec3 sec4";
+    }
+    .serv-txt{
+        font-size: 2rem;
+        margin: 0 0 0.5rem;
+    }
+    .serv-txt-m{
+        font-size: 2rem;
+        margin: 0 0 0.5rem;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .serv-box3{
+        background-position: center;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #servicios{
+        justify-content: center;
+        padding: 0;
+        margin: 0 ;
+        grid-template-columns: 25rem ;
+        grid-template-rows: 15rem 15rem 15rem 15rem ;
+        grid-template-areas: "sec1"
+                             "sec2"
+                             "sec3"
+                             "sec4";
+    }
+    .serv-txt{
+        font-size: 10px;
+        margin: 0 0 0.5rem;
+    }
+    .serv-txt-m{
+        font-size: 10px;
+        margin: 0 0 0.5rem
+    }
+}
+/* fin servicios */ 
+/* Trabajos */
+@media only screen and (max-width: 400px){
+    #trabajos{
+        font-size: 10px;
+        margin: 0 2rem 0 0;
+    }
+
+}/* Fin trabajos */
+/* Footer */
+@media only screen and (max-width: 400px){
+    .maps{
+        width: 60%;
+        height: 10rem;
+    }
+    .logo{
+        width: 75%;
+    }
+}
+.logo-map{
+    width: 5%;
+}
